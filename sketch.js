@@ -19,8 +19,7 @@ function setup(){
 
   
   ship = createSprite(130,200,30,30);
-  ship.addAnimation("movingShip",shipImg1);
-  ship.scale =0.25;
+ 
   
 }
 
@@ -30,9 +29,7 @@ function draw() {
 
   
   //code to reset the background
-  if(sea.x < 0){
-    sea.x = sea.width/8;
-  }
+ 
     
   drawSprites();
 }
